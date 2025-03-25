@@ -1,0 +1,212 @@
+/* Apply styles to the entire body */
+body {
+    font-family: Arial, sans-serif;  /* Set the font style */
+    margin: 5px;  /* Add a small space around the body */
+    padding: 0;  /* Remove default padding */
+    background-color: #ebac47;  /* Set the background color */
+}
+
+/* Style for the main heading (h1) */
+h1 {
+    color: #8214dc;  /* Set text color */
+    background-color: #d7e7e8;  /* Set background color */
+    text-align: center;  /* Center the heading text */
+}
+
+/* Style for subheadings (h2 and h3) */
+h2, h3 {
+    color: #333;  /* Set text color */
+    background-color: #d7e7e8;  /* Set background color */
+}
+
+/* Style for div containers */
+div {
+    background: white;  /* Set background to white */
+    padding: 5px;  /* Add padding inside the div */
+    margin: 5px;  /* Add margin around the div */
+    border-radius: 5px;  /* Round the corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Remove default list styles */
+ul {
+    list-style-type: none;  /* Remove bullet points */
+    padding: 0;  /* Remove default padding */
+}
+
+/* Style for each list item */
+li {
+    display: flex;  /* Use flexbox for alignment */
+    justify-content: space-between;  /* Space items evenly */
+    align-items: center;  /* Center items vertically */
+    padding: 10px;  /* Add padding for spacing */
+    border-bottom: 1px solid #e122a8;  /* Add a bottom border */
+}
+
+/* Style for buttons */
+button {
+    background-color: #28a745;  /* Set button background color */
+    color: rgb(255, 255, 255);  /* Set button text color to white */
+    border: none;  /* Remove border */
+    padding: 5px 10px;  /* Add padding */
+    cursor: pointer;  /* Change cursor to pointer */
+    margin-left: 10px;  /* Add space on the left */
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: #218838;  /* Darken button when hovered */
+}
+
+/* Style for input fields */
+input {
+    width: 50px;  /* Set a fixed width */
+    text-align: center;  /* Center text inside input */
+}
+
+/* Table Styling */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* Table Headers */
+.cart-table th {
+  background-color: #d7e7e8;
+  color: #333;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #e122a8;
+}
+
+/* Table Rows */
+.cart-table td {
+  padding: 10px;
+  border-bottom: 1px solid #e122a8;
+}
+
+/* Input field for quantity */
+.cart-table input {
+  width: 50px;
+  text-align: center;
+}
+
+/* Buttons */
+.cart-table button {
+  background-color: #dc3545;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-table button:hover {
+  background-color: #c82333;
+}
+
+
+/* Table Styling */
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  /* Table Headers */
+  .cart-table th {
+    background-color: #d7e7e8;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #e122a8;
+  }
+  
+  /* Table Rows */
+  .cart-table td {
+    padding: 10px;
+    border-bottom: 1px solid #e122a8;
+  }
+  
+  /* Input field for quantity */
+  .cart-table input {
+    width: 50px;
+    text-align: center;
+  }
+  
+  /* Buttons */
+  .cart-table button {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cart-table button:hover {
+    background-color: #c82333;
+  }
+  
+  /* RESPONSIVE DESIGN */
+  
+  /* ✅ For Small Screens (Mobile) */
+  @media (max-width: 600px) {
+    .cart-table {
+      width: 100%;
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    .cart-table th,
+    .cart-table td {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .cart-table input {
+      width: 40px;
+    }
+  
+    .cart-table button {
+      padding: 4px 8px;
+      font-size: 12px;
+    }
+  }
+  
+  /* ✅ For Tablets */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .cart-table th,
+    .cart-table td {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    .cart-table input {
+      width: 45px;
+    }
+  
+    .cart-table button {
+      padding: 5px 10px;
+      font-size: 14px;
+    }
+  }
+  
+  /* ✅ For Large Screens (Laptops and Desktops) */
+  @media (min-width: 1025px) {
+    .cart-table th,
+    .cart-table td {
+      font-size: 18px;
+      padding: 12px;
+    }
+  
+    .cart-table input {
+      width: 50px;
+    }
+  
+    .cart-table button {
+      padding: 6px 12px;
+      font-size: 16px;
+    }
+  }
+  
