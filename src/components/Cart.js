@@ -5,7 +5,6 @@ function Cart({ cart, removeFromCart, updateQuantity }) {
     (total, item) => total + item.price * item.quantity,
     0
   );
-
   return (
     <div>
       <h2>Cart</h2>
