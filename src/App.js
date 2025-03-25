@@ -86,3 +86,5 @@ function App() {
 
 // Export the App component so it can be used in index.js
 export default App;
+
+// This is a test change to check Beyond Compare
