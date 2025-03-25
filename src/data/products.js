@@ -5,6 +5,7 @@ const products = [
     { id: 3, name: "Headphones", price: 3000 }, // Product 3: Headphones with a price of 3,000
     { id: 4, name: "Smartwatch", price: 5000 }, // Product 4: Smartwatch with a price of 5,000
     { id: 5, name: "Mouse", price: 500 }, // Product 5: Mouse with a price of 5,00
+    { id: 6, name: "TV", price: 50000 },
   ];
   
   // Export the `products` array so it can be used in other files
